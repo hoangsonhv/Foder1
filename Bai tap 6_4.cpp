@@ -19,14 +19,13 @@ int main(){
 				max=C;
 			}
 		}else{
-			a=0;
 			b++;
 			C=0;
 		}
 	}
 	if(b==n){
-		printf("Khong co so duong trong mang");
+		printf("\nKhong co so duong trong mang");
 	}else{
-		printf("Tong so duong lien tiep lon nhat la: %d",max);
+		printf("\nTong so duong lien tiep lon nhat la: %d",max);
 	}
 }
