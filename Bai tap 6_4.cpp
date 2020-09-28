@@ -19,6 +19,7 @@ int main(){
 				max=C;
 			}
 		}else{
+			a=0;
 			b++;
 			C=0;
 		}
