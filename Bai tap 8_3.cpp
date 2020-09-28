@@ -5,9 +5,6 @@ int ChuVi(int a,int b,int c){
 	if(a+b>c && a+c>b && b+c>a){
 		P= a + b + c;
 		return P;
-	}else{
-		printf("Khong phai canh cua tam giac");
-		return 0;
 	}
 }
 
